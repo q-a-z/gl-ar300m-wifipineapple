@@ -9,7 +9,7 @@ Wifi PIneapple for GL-AR300M
 5. connect to web interface and setup your password
 6. ssh root@172.16.42.1
 7. edit /pineapple/api/pineapple.php
-
+```php
 function getDevice()
 {
 	$data = file_get_contents('/proc/cpuinfo');
@@ -20,5 +20,6 @@ function getDevice()
 	}
 	 change this>>>>>>>return 'nano';
 }
+```
 8. connect to internet and update modules
    
