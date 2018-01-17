@@ -21,5 +21,9 @@ function getDevice()
 	 change this>>>>>>>return 'nano';
 }
 ```
-8. connect to internet and update modules
-   
+8. connect to internet
+
+
+bugs: 
+LAN and WAN interfaces are misplaced
+to install ettercap - run from terminal: opkg install ettercap --no-depends 
