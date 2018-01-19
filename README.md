@@ -8,28 +8,13 @@ Wifi PIneapple for GL-AR300M
 4. wait
 5. connect to web interface and setup your password
 6. ssh root@172.16.42.1
-7. ~~edit /pineapple/api/pineapple.php~~
-```php
-function getDevice()
-{
-	$data = file_get_contents('/proc/cpuinfo');
-	if (preg_match('/NANO/', $data)) {
-		return 'nano';
-	} elseif (preg_match('/TETRA/', $data)) {
-		return 'tetra';
-	}
-	 change this>>>>>>>return 'nano';
-}
-```
-8. connect to internet
+7. connect to internet
+8. do things
 
 
-to install ettercap:
-
-1. upload libpcap_1.8.1-1_ar71xx.ipk to your device via scp
-2. install it - opkg install libpcap_1.8.1-1_ar71xx.ipk
-3. install ettercap - opkg install ettercap --force-depends
-
+features:
+integrated libpcap 1.8.1
+integrated mana-toolkit including hostapd-mana, sslstrip2, dns2proxy, net-creds, firelamb (/usr/share/mana-toolkit/)
 
 bugs: 
 LAN and WAN interfaces are misplaced 
