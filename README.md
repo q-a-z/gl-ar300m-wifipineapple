@@ -24,6 +24,12 @@ function getDevice()
 8. connect to internet
 
 
+to install ettercap:
+
+1. upload libpcap_1.8.1-1_ar71xx.ipk to your device via scp
+2. install it - opkg install libpcap_1.8.1-1_ar71xx.ipk
+3. install ettercap - opkg install ettercap --force-depends
+
+
 bugs: 
-LAN and WAN interfaces are misplaced
-to install ettercap - run from terminal: opkg install ettercap --no-depends 
+LAN and WAN interfaces are misplaced 
