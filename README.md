@@ -2,7 +2,7 @@
 Wifi PIneapple for GL-AR300M
 
 
-1. Flash stock firmware (openwrt-ar300m-ubi-2.264.img) with uboot to nand
+1. Flash stock firmware (openwrt-ar300m-clean-2.264.img) with uboot to nand
 2. boot it
 3. on "firmware upgrade" page use openwrt-ar71xx-nand-gl-ar300m-squashfs-sysupgrade.tar, set "keep settings" to NONE
 4. wait
