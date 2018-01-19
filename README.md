@@ -15,6 +15,7 @@ Wifi PIneapple for GL-AR300M
 features:
 integrated libpcap 1.8.1
 integrated mana-toolkit including hostapd-mana, sslstrip2, dns2proxy, net-creds, firelamb (/usr/share/mana-toolkit/)
+lot of usb wifi drivers (all available)
 
 bugs: 
 LAN and WAN interfaces are misplaced 
