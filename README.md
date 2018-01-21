@@ -25,3 +25,4 @@ lot of usb wifi drivers (all available)
 
 bugs: 
 LAN and WAN interfaces are misplaced 
+python 2.7 not working correctly
