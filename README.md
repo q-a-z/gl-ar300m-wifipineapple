@@ -24,5 +24,5 @@ mana-toolkit (hostapd-mana, sslstrip2, dns2proxy, net-creds, firelamb (/usr/shar
 lot of usb wifi drivers (all available)
 
 bugs: 
-LAN and WAN interfaces are misplaced 
+LAN and WAN interfaces are misplaced   
 python 2.7 not working correctly
