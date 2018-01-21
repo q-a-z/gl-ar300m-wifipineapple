@@ -12,17 +12,14 @@ Wifi PIneapple for GL-AR300M
 8. do things
 
 
-features: 
+features:  
 
 
-libpcap 1.8.1
+* libpcap 1.8.1  
+* mana-toolkit (hostapd-mana, sslstrip2, dns2proxy, net-creds, firelamb (/usr/share/mana-toolkit/))  
+* lot of usb wifi drivers (all available)  
 
 
-mana-toolkit (hostapd-mana, sslstrip2, dns2proxy, net-creds, firelamb (/usr/share/mana-toolkit/))
-
-
-lot of usb wifi drivers (all available)
-
-bugs: 
-LAN and WAN interfaces are misplaced   
-python 2.7 not working correctly
+bugs:  
+* LAN and WAN interfaces are misplaced     
+* python 2.7 not working correctly
